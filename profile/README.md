@@ -35,6 +35,9 @@ Este repositório institucional tem como propósito:
 |-------------|-----------|
 | [`cadastro-controladores-api`](https://github.com/anpdgovbr/cadastro-controladores-api) | Microsserviço de cadastro e gerenciamento de controladores de dados pessoais, conforme exigências da LGPD. |
 | [`backlog-dim`](https://github.com/anpdgovbr/backlog-dim) | Sistema de acompanhamento de demandas internas, parte da dimensão de monitoramento e controle de processos. |
+| [`shared-types`](https://github.com/anpdgovbr/shared-types) | Biblioteca centralizada de tipos, DTOs e enums utilizados entre microsserviços e aplicações frontend, garantindo tipagem unificada. |
+| [`anpd-shared-ui`](https://github.com/anpdgovbr/anpd-shared-ui) | Biblioteca de componentes React reutilizáveis, baseada em MUI v7 e govbr-ds, para padronização visual das interfaces ANPD. |
+
 
 > *Novos projetos serão disponibilizados conforme avançam os ciclos de desenvolvimento institucional.*
 
