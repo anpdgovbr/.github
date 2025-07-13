@@ -1,64 +1,61 @@
-# Autoridade Nacional de Proteção de Dados (ANPD) 🇧🇷
+# 🏛️ Autoridade Nacional de Proteção de Dados (ANPD) 🇧🇷
 
-> GitHub institucional da ANPD — Autoridade Nacional de Proteção de Dados. Este espaço é destinado à disponibilização de soluções desenvolvidas, documentações técnicas e projetos de inovação tecnológica com foco em transparência, interoperabilidade e reuso de software no setor público.
+**Bem-vindo ao GitHub oficial da Autoridade Nacional de Proteção de Dados (ANPD).**
+
+Este espaço é dedicado à transparência, inovação e colaboração. Aqui você encontrará o código-fonte de nossas soluções, documentações técnicas e projetos de P&D que impulsionam a proteção de dados no Brasil.
+
+---
+
+## 🚀 Nossos Princípios
+
+- **Código Aberto:** Nossas soluções são desenvolvidas de forma aberta para promover o reuso e a colaboração.
+- **Transparência:** Disponibilizamos documentação e processos para que a sociedade possa acompanhar nosso trabalho.
+- **Inovação:** Buscamos constantemente novas tecnologias para fortalecer a cultura de proteção de dados.
+- **Interoperabilidade:** Criamos sistemas que se comunicam de forma eficiente com outras plataformas do ecossistema gov.br.
+
+---
+
+## 📌 Projetos em Destaque
+
+Explore nossos principais repositórios:
+
+| Repositório                                                       | Descrição                                                                                                                            | Status                                                                                                                                        |
+| ----------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------ | --------------------------------------------------------------------------------------------------------------------------------------------- |
+| 🚀 [`cadastro-controladores-api`](https://github.com/anpdgovbr/cadastro-controladores-api) | **API para Cadastro de Controladores:** Microsserviço para gerenciar controladores de dados pessoais, em conformidade com a LGPD.      | ![Status](https://img.shields.io/badge/Status-Em%20Desenvolvimento-yellow)                                                                    |
+| 📊 [`backlog-dim`](https://github.com/anpdgovbr/backlog-dim)             | **Sistema de Gestão de Demandas:** Plataforma para acompanhamento de demandas internas e monitoramento de processos.                 | ![Status](https://img.shields.io/badge/Status-Em%20Desenvolvimento-yellow)                                                                    |
+| 📦 [`shared-types`](https://github.com/anpdgovbr/shared-types)          | **Biblioteca de Tipos (Shared Types):** DTOs, enums e interfaces para garantir consistência e tipagem unificada entre nossos sistemas. | ![Status](https://img.shields.io/badge/Status-Em%20Desenvolvimento-yellow)                                                                    |
+| ✨ [`shared-ui`](https://github.com/anpdgovbr/shared-ui)                 | **Biblioteca de Componentes (UI Kit):** Componentes React (MUI) para padronizar a identidade visual das aplicações da ANPD.            | ![Status](https://img.shields.io/badge/Status-Em%20Desenvolvimento-yellow)                                                                              |
+
+> Fique atento! Novos projetos serão adicionados conforme avançamos em nossos ciclos de desenvolvimento.
+
+---
+
+## 🤝 Como Contribuir
+
+Agradecemos o interesse em colaborar com a ANPD!
+
+> ⚠️ **Aviso:** No momento, ainda estamos formalizando nossas diretrizes de contribuição. Em breve, publicaremos um guia `CONTRIBUTING.md` com o passo a passo para interagir com nossos projetos.
+
+Enquanto isso, sinta-se à vontade para abrir **Issues** em nossos repositórios para relatar bugs ou sugerir melhorias.
+
+---
+
+## 📞 Contato
+
+Para dúvidas, sugestões ou comunicação técnica com nossa equipe de desenvolvimento:
+
+- 📧 **E-mail:** `desenvolvimento@anpd.gov.br`
 
 ---
 
 ## 🏛️ Sobre a ANPD
 
-A Autoridade Nacional de Proteção de Dados (ANPD) é uma **autarquia de natureza especial**, vinculada ao Ministério da Justiça e Segurança Pública, responsável por zelar pela proteção de dados pessoais no Brasil, conforme estabelecido pela **Lei Geral de Proteção de Dados Pessoais (LGPD) – Lei nº 13.709/2018**.
+A **Autoridade Nacional de Proteção de Dados** é a autarquia federal responsável por zelar pela proteção de dados pessoais no Brasil, garantindo a aplicação da **Lei Geral de Proteção de Dados Pessoais (LGPD)**.
 
-A ANPD tem autonomia técnica e decisória, e suas atribuições incluem:
-
-- Estabelecer diretrizes para a Política Nacional de Proteção de Dados Pessoais e da Privacidade;
-- Promover o conhecimento e boas práticas em segurança da informação e privacidade;
-- Estimular padrões técnicos que facilitem o controle dos dados por seus titulares;
-- Fiscalizar e aplicar sanções em caso de descumprimento da legislação.
-
-🔗 [Planejamento Estratégico e Carta de Serviços](https://www.gov.br/anpd/pt-br/acesso-a-informacao/acoes-e-programas/governanca/comite-governanca-digital)
+🔗 [Saiba mais sobre a ANPD](https://www.gov.br/anpd/pt-br/acesso-a-informacao/institucional)
 
 ---
 
-## 📌 Objetivo deste perfil
-
-Este repositório institucional tem como propósito:
-
-- Disponibilizar **código-fonte, APIs, modelos de dados e documentação técnica** produzidos no âmbito da ANPD;
-- Estimular a **inovação aberta, a colaboração com a sociedade e o reuso de soluções** no ecossistema gov.br;
-- Servir como ponto de apoio à **governança digital e interoperabilidade** de sistemas públicos.
-
----
-
-## 🚀 Projetos em destaque
-
-| Repositório | Descrição |
-|-------------|-----------|
-| [`cadastro-controladores-api`](https://github.com/anpdgovbr/cadastro-controladores-api) | Microsserviço de cadastro e gerenciamento de controladores de dados pessoais, conforme exigências da LGPD. |
-| [`backlog-dim`](https://github.com/anpdgovbr/backlog-dim) | Sistema de acompanhamento de demandas internas, parte da dimensão de monitoramento e controle de processos. |
-| [`shared-types`](https://github.com/anpdgovbr/shared-types) | Biblioteca centralizada de tipos, DTOs e enums utilizados entre microsserviços e aplicações frontend, garantindo tipagem unificada. |
-| [`anpd-shared-ui`](https://github.com/anpdgovbr/anpd-shared-ui) | Biblioteca de componentes React reutilizáveis, baseada em MUI v7 e govbr-ds, para padronização visual das interfaces ANPD. |
-
-
-> *Novos projetos serão disponibilizados conforme avançam os ciclos de desenvolvimento institucional.*
-
----
-
-## 🤝 Contato
-
-Para dúvidas, sugestões ou comunicação técnica com a equipe de desenvolvimento da ANPD:
-
-📧 **desenvolvimento@anpd.gov.br**
-
----
-
-## 📄 Licença
-
-Os repositórios da ANPD são publicados sob licenças livres ou abertas, especificadas individualmente em cada projeto.
-
-> No momento, **ainda não há diretrizes formais de contribuição pública**. Em breve, este perfil contará com um arquivo `CONTRIBUTING.md` e normas de participação da comunidade.
-
----
-
-## 🏛️ Governo Federal do Brasil  
-> “Por uma cultura de proteção de dados pessoais no Brasil.”  
-> Autoridade Nacional de Proteção de Dados — ANPD
+> "Por uma cultura de proteção de dados pessoais no Brasil."
+>
+> **Governo Federal do Brasil**
