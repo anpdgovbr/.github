@@ -15,40 +15,6 @@ Este espaço é dedicado à transparência, inovação e colaboração. Aqui voc
 
 ---
 
-## 🏛️ Governança Digital na ANPD
-
-A ANPD instituiu o **Comitê de Governança Digital (CGD/ANPD)**, responsável por deliberar e acompanhar ações de governo digital e o uso de tecnologia da informação e comunicação (TIC) na Autoridade.
-
-**Principais competências do Comitê:**
-
-- Alinhar iniciativas de TI à estratégia institucional da ANPD.
-- Deliberar e acompanhar objetivos, metas, planos, projetos e ações de TI.
-- Definir e priorizar investimentos em tecnologia.
-- Estabelecer diretrizes, normas e práticas de TI.
-- Aprovar instrumentos de planejamento, como o **Plano Diretor de Tecnologia da Informação e Comunicação (PDTIC)**, o **Plano de Transformação Digital** e o **Plano de Dados Abertos**.
-- Monitorar e prestar contas sobre a execução dos planos de TI, promovendo transparência ativa.
-- Avaliar resultados e promover a melhoria contínua dos serviços digitais.
-
-**Documentos e ações de referência:**
-
-- [Resolução CD/ANPD nº 3/2023](https://www.in.gov.br/web/dou/-/resolucao-cd/anpd-n-3-de-25-de-janeiro-de-2023-460124477)
-- [PDTIC/ANPD 2025-2028 (vigente)](https://www.gov.br/anpd/pt-br/acesso-a-informacao/acoes-e-programas/governanca/comite-governanca-digital/pdtic/pdtic-2025-2028-vigente.pdf)
-- [Plano de Transformação Digital 2023-2024](https://www.gov.br/anpd/pt-br/acesso-a-informacao/acoes-e-programas/governanca/comite-governanca-digital/plano-de-transformacao-digital/ANPD_Plano_de_Transformacao_digital___24_assinado.pdf)
-- [Processo de Desenvolvimento de Software](https://www.gov.br/anpd/pt-br/acesso-a-informacao/acoes-e-programas/governanca/comite-governanca-digital/comite-de-governanca-digital-1/ano-2025/documento-processo-de-desenvolvimento-de-software.pdf)
-- [Estratégia de Uso de Software e Serviços de Computação em Nuvem](https://www.gov.br/anpd/pt-br/acesso-a-informacao/acoes-e-programas/governanca/comite-governanca-digital/Consolidado_ANPD_Estrategia_Nuvem.pdf)
-
-**Princípios e compromissos:**
-
-- Transparência ativa e prestação de contas.
-- Modernização tecnológica e uso eficiente dos recursos públicos.
-- Segurança da informação e proteção de dados pessoais.
-- Adoção de soluções abertas sempre que legalmente possível.
-- Participação social e alinhamento com as diretrizes do Governo Federal.
-
-**Reuniões e atas públicas:** O Comitê se reúne trimestralmente e publica suas atas [neste link](https://www.gov.br/anpd/pt-br/acesso-a-informacao/acoes-e-programas/governanca/comite-governanca-digital).
-
----
-
 ## 📌 Projetos em Destaque
 
 Explore nossos principais repositórios próprios:
