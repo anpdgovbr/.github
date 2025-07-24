@@ -228,9 +228,8 @@ A ANPD instituiu o **Comitê de Governança Digital (CGD/ANPD)**, responsável p
 ### 🔗 **Links Úteis**
 
 - 🏠 [Portal Oficial da ANPD](https://www.gov.br/anpd/pt-br/acesso-a-informacao/institucional)
-- 📋 [Lei Geral de Proteção de Dados (LGPD)](https://www.gov.br/anpd/pt-br/assuntos/lei-geral-de-protecao-de-dados-lgpd)
-- 📚 [Orientações e Diretrizes](https://www.gov.br/anpd/pt-br/documentos-e-publicacoes)
-- 🏆 [Prêmio Danilo Doneda](https://www.gov.br/anpd/pt-br/assuntos/premio-danilo-doneda)
+- 📋 [Lei Geral de Proteção de Dados (LGPD)](https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/lei/l13709.htm)
+- 🏆 [Prêmio Danilo Doneda](https://www.gov.br/anpd/pt-br/centrais-de-conteudo/concurso-de-monografias-da-anpd-premio-danilo-doneda)
 
 ---
 
@@ -244,7 +243,7 @@ A ANPD instituiu o **Comitê de Governança Digital (CGD/ANPD)**, responsável p
 
 [![GitHub Organization](https://img.shields.io/badge/GitHub-anpdgovbr-blue?style=for-the-badge&logo=github)](https://github.com/anpdgovbr)
 [![Website](https://img.shields.io/badge/Website-gov.br%2Fanpd-green?style=for-the-badge&logo=firefox)](https://www.gov.br/anpd)
-[![LGPD](https://img.shields.io/badge/LGPD-Compliance-gold?style=for-the-badge&logo=shield)](https://www.gov.br/anpd/pt-br/assuntos/lei-geral-de-protecao-de-dados-lgpd)
+[![LGPD](https://img.shields.io/badge/LGPD-Compliance-gold?style=for-the-badge&logo=shield)](https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/lei/l13709.htm)
 
 **⭐ Se nossos projetos são úteis para você, considere dar uma estrela nos repositórios!**
 
