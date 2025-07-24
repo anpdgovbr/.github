@@ -142,16 +142,16 @@ Para dúvidas, sugestões ou comunicação técnica com nossa equipe de desenvol
 
 ### 🌐 **Canais Oficiais**
 
-- 🏠 [**Site Oficial da ANPD**](https://www.gov.br/anpd){:target="\_blank" rel="noopener noreferrer"}
-- 📚 [**Portal de Transparência**](https://www.gov.br/anpd/pt-br/acesso-a-informacao){:target="\_blank" rel="noopener noreferrer"}
-- 👥 [**Participação Social**](https://www.gov.br/anpd/pt-br/acesso-a-informacao/participacao-social){:target="\_blank" rel="noopener noreferrer"}
+- 🏠 [**Site Oficial da ANPD**](https://www.gov.br/anpd)
+- 📚 [**Portal de Transparência**](https://www.gov.br/anpd/pt-br/acesso-a-informacao)
+- 👥 [**Participação Social**](https://www.gov.br/anpd/pt-br/acesso-a-informacao/participacao-social)
 
 ### ⚡ **Suporte Rápido**
 
 - 💬 **Issues GitHub** - Para questões técnicas específicas de cada repositório
 - 📱 **Ouvidoria** - Para feedback geral sobre serviços da ANPD
 
-> 📝 **Nota:** Para questões de proteção de dados pessoais, consulte os [canais oficiais de atendimento](https://www.gov.br/anpd/pt-br/canais_atendimento/fale-conosco){:target="\_blank" rel="noopener noreferrer"} da ANPD.
+> 📝 **Nota:** Para questões de proteção de dados pessoais, consulte os [canais oficiais de atendimento](https://www.gov.br/anpd/pt-br/canais_atendimento/fale-conosco) da ANPD.
 
 ---
 
@@ -209,11 +209,11 @@ A ANPD instituiu o **Comitê de Governança Digital (CGD/ANPD)**, responsável p
 
 **Documentos e ações de referência:**
 
-- [Resolução CD/ANPD nº 3/2023](https://www.in.gov.br/web/dou/-/resolucao-cd/anpd-n-3-de-25-de-janeiro-de-2023-460124477){:target="\_blank" rel="noopener noreferrer"}
-- [PDTIC/ANPD 2025-2028 (vigente)](https://www.gov.br/anpd/pt-br/acesso-a-informacao/acoes-e-programas/governanca/comite-governanca-digital/pdtic/pdtic-2025-2028-vigente.pdf){:target="\_blank" rel="noopener noreferrer"}
-- [Plano de Transformação Digital 2023-2024](https://www.gov.br/anpd/pt-br/acesso-a-informacao/acoes-e-programas/governanca/comite-governanca-digital/plano-de-transformacao-digital/ANPD_Plano_de_Transformacao_digital___24_assinado.pdf){:target="\_blank" rel="noopener noreferrer"}
-- [Processo de Desenvolvimento de Software](https://www.gov.br/anpd/pt-br/acesso-a-informacao/acoes-e-programas/governanca/comite-governanca-digital/comite-de-governanca-digital-1/ano-2025/documento-processo-de-desenvolvimento-de-software.pdf){:target="\_blank" rel="noopener noreferrer"}
-- [Estratégia de Uso de Software e Serviços de Computação em Nuvem](https://www.gov.br/anpd/pt-br/acesso-a-informacao/acoes-e-programas/governanca/comite-governanca-digital/Consolidado_ANPD_Estrategia_Nuvem.pdf){:target="\_blank" rel="noopener noreferrer"}
+- [Resolução CD/ANPD nº 3/2023](https://www.in.gov.br/web/dou/-/resolucao-cd/anpd-n-3-de-25-de-janeiro-de-2023-460124477)
+- [PDTIC/ANPD 2025-2028 (vigente)](https://www.gov.br/anpd/pt-br/acesso-a-informacao/acoes-e-programas/governanca/comite-governanca-digital/pdtic/pdtic-2025-2028-vigente.pdf)
+- [Plano de Transformação Digital 2023-2024](https://www.gov.br/anpd/pt-br/acesso-a-informacao/acoes-e-programas/governanca/comite-governanca-digital/plano-de-transformacao-digital/ANPD_Plano_de_Transformacao_digital___24_assinado.pdf)
+- [Processo de Desenvolvimento de Software](https://www.gov.br/anpd/pt-br/acesso-a-informacao/acoes-e-programas/governanca/comite-governanca-digital/comite-de-governanca-digital-1/ano-2025/documento-processo-de-desenvolvimento-de-software.pdf)
+- [Estratégia de Uso de Software e Serviços de Computação em Nuvem](https://www.gov.br/anpd/pt-br/acesso-a-informacao/acoes-e-programas/governanca/comite-governanca-digital/Consolidado_ANPD_Estrategia_Nuvem.pdf)
 
 **Princípios e compromissos:**
 
@@ -223,14 +223,14 @@ A ANPD instituiu o **Comitê de Governança Digital (CGD/ANPD)**, responsável p
 - Adoção de soluções abertas sempre que legalmente possível.
 - Participação social e alinhamento com as diretrizes do Governo Federal.
 
-**Reuniões e atas públicas:** O Comitê se reúne trimestralmente e publica suas atas [neste link](https://www.gov.br/anpd/pt-br/acesso-a-informacao/acoes-e-programas/governanca/comite-governanca-digital){:target="\_blank" rel="noopener noreferrer"}.
+**Reuniões e atas públicas:** O Comitê se reúne trimestralmente e publica suas atas [neste link](https://www.gov.br/anpd/pt-br/acesso-a-informacao/acoes-e-programas/governanca/comite-governanca-digital).
 
 ### 🔗 **Links Úteis**
 
-- 🏠 [Portal Oficial da ANPD](https://www.gov.br/anpd/pt-br/acesso-a-informacao/institucional){:target="\_blank" rel="noopener noreferrer"}
-- 📋 [Lei Geral de Proteção de Dados (LGPD)](https://www.gov.br/anpd/pt-br/assuntos/lei-geral-de-protecao-de-dados-lgpd){:target="\_blank" rel="noopener noreferrer"}
-- 📚 [Orientações e Diretrizes](https://www.gov.br/anpd/pt-br/documentos-e-publicacoes){:target="\_blank" rel="noopener noreferrer"}
-- 🏆 [Prêmio Danilo Doneda](https://www.gov.br/anpd/pt-br/assuntos/premio-danilo-doneda){:target="\_blank" rel="noopener noreferrer"}
+- 🏠 [Portal Oficial da ANPD](https://www.gov.br/anpd/pt-br/acesso-a-informacao/institucional)
+- 📋 [Lei Geral de Proteção de Dados (LGPD)](https://www.gov.br/anpd/pt-br/assuntos/lei-geral-de-protecao-de-dados-lgpd)
+- 📚 [Orientações e Diretrizes](https://www.gov.br/anpd/pt-br/documentos-e-publicacoes)
+- 🏆 [Prêmio Danilo Doneda](https://www.gov.br/anpd/pt-br/assuntos/premio-danilo-doneda)
 
 ---
 
@@ -243,9 +243,11 @@ A ANPD instituiu o **Comitê de Governança Digital (CGD/ANPD)**, responsável p
 <div align="center">
 
 [![GitHub Organization](https://img.shields.io/badge/GitHub-anpdgovbr-blue?style=for-the-badge&logo=github)](https://github.com/anpdgovbr)
-[![Website](https://img.shields.io/badge/Website-gov.br%2Fanpd-green?style=for-the-badge&logo=firefox)](https://www.gov.br/anpd){:target="\_blank" rel="noopener noreferrer"}
-[![LGPD](https://img.shields.io/badge/LGPD-Compliance-gold?style=for-the-badge&logo=shield)](https://www.gov.br/anpd/pt-br/assuntos/lei-geral-de-protecao-de-dados-lgpd){:target="\_blank" rel="noopener noreferrer"}
+[![Website](https://img.shields.io/badge/Website-gov.br%2Fanpd-green?style=for-the-badge&logo=firefox)](https://www.gov.br/anpd)
+[![LGPD](https://img.shields.io/badge/LGPD-Compliance-gold?style=for-the-badge&logo=shield)](https://www.gov.br/anpd/pt-br/assuntos/lei-geral-de-protecao-de-dados-lgpd)
 
 **⭐ Se nossos projetos são úteis para você, considere dar uma estrela nos repositórios!**
 
 </div>
+
+> ℹ️ **Nota:** Links externos abrem na mesma guia por padrão. Para abrir em nova guia, use o botão direito ou o atalho do navegador.
