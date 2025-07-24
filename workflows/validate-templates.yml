@@ -1,0 +1,202 @@
+name: 🔍 Validar Templates da Organização
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/ISSUE_TEMPLATE/**'
+      - '.github/pull_request_template.md'
+  pull_request:
+    branches: [main]
+    paths:
+      - '.github/ISSUE_TEMPLATE/**'
+      - '.github/pull_request_template.md'
+
+jobs:
+  validate-templates:
+    name: 📋 Validar Templates
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: 📥 Checkout código
+        uses: actions/checkout@v4
+
+      - name: 🔍 Validar sintaxe YAML dos templates
+        run: |
+          echo "🔍 Verificando sintaxe dos templates YAML..."
+
+          # Verificar se existem arquivos YAML para validar
+          if ls .github/ISSUE_TEMPLATE/*.yml 1> /dev/null 2>&1; then
+            for file in .github/ISSUE_TEMPLATE/*.yml; do
+              echo "Validando: $file"
+              python -c "
+          import yaml
+          import sys
+          try:
+              with open('$file', 'r', encoding='utf-8') as f:
+                  yaml.safe_load(f)
+              print('✅ $file - Sintaxe válida')
+          except yaml.YAMLError as e:
+              print('❌ $file - Erro de sintaxe:', e)
+              sys.exit(1)
+          except Exception as e:
+              print('❌ $file - Erro:', e)
+              sys.exit(1)
+              "
+            done
+          else
+            echo "ℹ️ Nenhum template YAML encontrado"
+          fi
+
+      - name: 📝 Verificar template de PR
+        run: |
+          echo "📝 Verificando template de Pull Request..."
+
+          if [ -f ".github/pull_request_template.md" ]; then
+            echo "✅ Template de PR encontrado"
+            
+            # Verificar se contém seções essenciais
+            if grep -q "## 📋 Descrição" .github/pull_request_template.md; then
+              echo "✅ Seção de descrição encontrada"
+            else
+              echo "❌ Seção de descrição não encontrada"
+              exit 1
+            fi
+            
+            if grep -q "Como Testar" .github/pull_request_template.md; then
+              echo "✅ Seção de testes encontrada"
+            else
+              echo "❌ Seção de testes não encontrada"
+              exit 1
+            fi
+            
+          else
+            echo "❌ Template de PR não encontrado"
+            exit 1
+          fi
+
+      - name: 🏛️ Verificar conteúdo específico da ANPD
+        run: |
+          echo "🏛️ Verificando referências específicas da ANPD..."
+
+          # Verificar se os templates mencionam contexto da ANPD
+          grep_count=0
+
+          if grep -r "ANPD\|LGPD\|Proteção de Dados" .github/ISSUE_TEMPLATE/ || \
+             grep "ANPD\|LGPD\|Proteção de Dados" .github/pull_request_template.md; then
+            echo "✅ Referências à ANPD/LGPD encontradas"
+            grep_count=$((grep_count + 1))
+          fi
+
+          if grep -r "desenvolvimento@anpd.gov.br\|ddss@anpd.gov.br" .github/; then
+            echo "✅ Contatos da ANPD encontrados"
+            grep_count=$((grep_count + 1))
+          fi
+
+          if [ $grep_count -lt 1 ]; then
+            echo "⚠️ Poucos elementos específicos da ANPD encontrados"
+          else
+            echo "✅ Conteúdo específico da ANPD verificado"
+          fi
+
+  validate-links:
+    name: 🔗 Validar Links Internos
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: 📥 Checkout código
+        uses: actions/checkout@v4
+
+      - name: 🔗 Verificar links para arquivos locais
+        run: |
+          echo "🔗 Verificando links internos..."
+
+          # Lista de arquivos que podem conter links
+          files_to_check=(
+            ".github/ISSUE_TEMPLATE/*.yml"
+            ".github/pull_request_template.md"
+            ".github/profile/README.md"
+            ".github/profile/CONTRIBUTING.md"
+          )
+
+          errors=0
+
+          for pattern in "${files_to_check[@]}"; do
+            for file in $pattern; do
+              if [ -f "$file" ]; then
+                echo "Verificando links em: $file"
+                
+                # Extrair links para arquivos .md locais
+                links=$(grep -o '\[.*\]([^)]*\.md)' "$file" | sed 's/.*(\([^)]*\)).*/\1/' || true)
+                
+                for link in $links; do
+                  # Remover âncoras (#section)
+                  clean_link=$(echo "$link" | sed 's/#.*//')
+                  
+                  # Construir caminho absoluto
+                  if [[ "$clean_link" == ../* ]]; then
+                    # Link relativo subindo diretório
+                    target_file=".github/$(echo "$clean_link" | sed 's|^\.\./||')"
+                  elif [[ "$clean_link" == /* ]]; then
+                    # Link absoluto
+                    target_file=".$clean_link"
+                  else
+                    # Link relativo no mesmo diretório
+                    dir=$(dirname "$file")
+                    target_file="$dir/$clean_link"
+                  fi
+                  
+                  if [ -f "$target_file" ]; then
+                    echo "  ✅ $link -> $target_file"
+                  else
+                    echo "  ❌ $link -> $target_file (não encontrado)"
+                    errors=$((errors + 1))
+                  fi
+                done
+              fi
+            done
+          done
+
+          if [ $errors -gt 0 ]; then
+            echo "❌ $errors link(s) quebrado(s) encontrado(s)"
+            exit 1
+          else
+            echo "✅ Todos os links internos estão funcionando"
+          fi
+
+  security-check:
+    name: 🔐 Verificação de Segurança
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: 📥 Checkout código
+        uses: actions/checkout@v4
+
+      - name: 🔐 Verificar políticas de segurança
+        run: |
+          echo "🔐 Verificando políticas de segurança..."
+
+          # Verificar se SECURITY.md existe
+          if [ -f ".github/profile/SECURITY.md" ]; then
+            echo "✅ SECURITY.md encontrado"
+            
+            # Verificar se contém informações essenciais
+            if grep -q "ddss@anpd.gov.br" .github/profile/SECURITY.md; then
+              echo "✅ Contato de segurança encontrado"
+            else
+              echo "❌ Contato de segurança não encontrado"
+              exit 1
+            fi
+            
+          else
+            echo "❌ SECURITY.md não encontrado"
+            exit 1
+          fi
+
+          # Verificar se CODE_OF_CONDUCT.md existe
+          if [ -f ".github/profile/CODE_OF_CONDUCT.md" ]; then
+            echo "✅ CODE_OF_CONDUCT.md encontrado"
+          else
+            echo "❌ CODE_OF_CONDUCT.md não encontrado"
+            exit 1
+          fi

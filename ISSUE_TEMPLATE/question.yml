@@ -1,0 +1,95 @@
+name: ❓ Pergunta ou Discussão
+description: Faça uma pergunta ou inicie uma discussão
+title: '[PERGUNTA] '
+labels: ['question', 'discussion']
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## ❓ Pergunta ou Discussão
+
+        Use este template para fazer perguntas sobre nossos projetos ou iniciar discussões técnicas.
+
+        **Antes de continuar:**
+        - 🔍 Verifique se sua pergunta já foi respondida em issues anteriores
+        - 📚 Consulte a documentação do projeto
+        - 💭 Para dúvidas técnicas complexas, considere contactar desenvolvimento@anpd.gov.br
+
+  - type: input
+    id: repository
+    attributes:
+      label: 📦 Repositório Relacionado
+      description: Sobre qual repositório da ANPD você tem uma pergunta?
+      placeholder: 'Ex: shared-ui, cadastro-controladores-api, geral...'
+    validations:
+      required: false
+
+  - type: dropdown
+    id: category
+    attributes:
+      label: 📋 Categoria
+      description: Que tipo de pergunta ou discussão é esta?
+      options:
+        - '🔧 Questão Técnica'
+        - '📚 Documentação'
+        - '🛠️ Como Usar'
+        - '🏗️ Arquitetura'
+        - '🔐 Segurança'
+        - '📊 Performance'
+        - '🤝 Contribuição'
+        - '💡 Ideias Gerais'
+        - '🏛️ Contexto ANPD/LGPD'
+        - '❓ Outro'
+    validations:
+      required: true
+
+  - type: textarea
+    id: question
+    attributes:
+      label: ❓ Sua Pergunta
+      description: Descreva sua pergunta ou o tópico que gostaria de discutir
+      placeholder: 'Seja claro e específico sobre o que você gostaria de saber...'
+    validations:
+      required: true
+
+  - type: textarea
+    id: context
+    attributes:
+      label: 🔍 Contexto
+      description: Forneça mais detalhes sobre seu caso de uso ou situação
+      placeholder: |
+        - O que você está tentando fazer?
+        - Qual é seu nível de experiência com a tecnologia?
+        - Já tentou alguma abordagem?
+        - Etc...
+      render: markdown
+
+  - type: textarea
+    id: environment
+    attributes:
+      label: 🖥️ Ambiente (se relevante)
+      description: Informações técnicas sobre seu ambiente, se aplicável
+      placeholder: |
+        - SO: [ex: Windows 11, Ubuntu 22.04]
+        - Node.js: [ex: v18.17.0]
+        - Navegador: [ex: Chrome 115]
+        - Versão do projeto: [ex: v1.2.3]
+      render: markdown
+
+  - type: textarea
+    id: additional
+    attributes:
+      label: ℹ️ Informações Adicionais
+      description: Qualquer outra informação que possa ser útil
+      placeholder: 'Links úteis, referências, contexto adicional...'
+
+  - type: checkboxes
+    id: terms
+    attributes:
+      label: ✅ Confirmações
+      description: Por favor, confirme que
+      options:
+        - label: Li e segui o [Código de Conduta](../profile/CODE_OF_CONDUCT.md)
+          required: true
+        - label: Busquei na documentação e issues existentes antes de perguntar
+          required: true

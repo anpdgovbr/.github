@@ -1,0 +1,133 @@
+name: ✨ Feature Request
+description: Sugira uma nova funcionalidade ou melhoria
+title: '[FEATURE] '
+labels: ['enhancement', 'triage']
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## ✨ Solicitação de Funcionalidade
+
+        Obrigado por contribuir com ideias para melhorar nossos projetos!
+
+        **Antes de continuar:**
+        - 🔍 Verifique se já existe uma solicitação similar
+        - 📚 Consulte a documentação e roadmap do projeto
+        - 💭 Considere se esta funcionalidade se alinha com os objetivos da ANPD
+
+  - type: input
+    id: repository
+    attributes:
+      label: 📦 Repositório de Destino
+      description: Em qual repositório da ANPD esta funcionalidade deveria ser implementada?
+      placeholder: 'Ex: shared-ui, cadastro-controladores-api, backlog-dim...'
+    validations:
+      required: true
+
+  - type: textarea
+    id: problem
+    attributes:
+      label: 🎯 Problema ou Necessidade
+      description: Que problema esta funcionalidade resolveria?
+      placeholder: 'Descreva o problema ou necessidade que motivou esta solicitação...'
+    validations:
+      required: true
+
+  - type: textarea
+    id: solution
+    attributes:
+      label: 💡 Solução Proposta
+      description: Como você imagina que esta funcionalidade deveria funcionar?
+      placeholder: 'Descreva detalhadamente como a funcionalidade deveria funcionar...'
+    validations:
+      required: true
+
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: 🔄 Alternativas Consideradas
+      description: Você considerou outras formas de resolver este problema?
+      placeholder: 'Descreva outras soluções que você considerou...'
+
+  - type: textarea
+    id: benefits
+    attributes:
+      label: 🎁 Benefícios Esperados
+      description: Quais benefícios esta funcionalidade traria?
+      placeholder: |
+        - Melhoria na experiência do usuário
+        - Redução de tempo/esforço
+        - Conformidade com regulamentações
+        - Etc...
+      render: markdown
+
+  - type: dropdown
+    id: priority
+    attributes:
+      label: 📊 Prioridade Sugerida
+      description: Qual a prioridade desta funcionalidade na sua opinião?
+      options:
+        - '🔴 Alta - Crítica para operação'
+        - '🟡 Média - Importante mas não urgente'
+        - '🟢 Baixa - Melhoria incremental'
+        - '🔵 Idea - Para consideração futura'
+    validations:
+      required: true
+
+  - type: dropdown
+    id: complexity
+    attributes:
+      label: ⚙️ Complexidade Estimada
+      description: Como você avalia a complexidade de implementação?
+      options:
+        - '🟢 Baixa - Mudança simples'
+        - '🟡 Média - Requer algum esforço'
+        - '🔴 Alta - Mudança significativa'
+        - '❓ Não sei avaliar'
+
+  - type: textarea
+    id: context
+    attributes:
+      label: 🏛️ Contexto da ANPD
+      description: Como esta funcionalidade se relaciona com as atividades da ANPD?
+      placeholder: |
+        - Conformidade com LGPD
+        - Melhoria em processos administrativos
+        - Facilitar trabalho de fiscalização
+        - Transparência de dados
+        - Etc...
+      render: markdown
+
+  - type: textarea
+    id: mockups
+    attributes:
+      label: 🎨 Mockups ou Exemplos
+      description: Inclua mockups, wireframes ou exemplos de interfaces similares
+      placeholder: 'Cole aqui links para mockups, ou descreva a interface desejada...'
+
+  - type: textarea
+    id: technical
+    attributes:
+      label: 🔧 Considerações Técnicas
+      description: Alguma consideração técnica específica?
+      placeholder: |
+        - Dependências necessárias
+        - Impacto em performance
+        - Questões de segurança
+        - Compatibilidade
+        - Etc...
+
+  - type: checkboxes
+    id: terms
+    attributes:
+      label: ✅ Confirmações
+      description: Por favor, confirme que
+      options:
+        - label: Li e segui o [Código de Conduta](../profile/CODE_OF_CONDUCT.md)
+          required: true
+        - label: Verifiquei que não existe uma solicitação similar já aberta
+          required: true
+        - label: Esta funcionalidade se alinha com os objetivos públicos da ANPD
+          required: true
+        - label: Estou disponível para fornecer esclarecimentos adicionais se necessário
+          required: false

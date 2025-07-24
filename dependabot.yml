@@ -1,0 +1,96 @@
+# Configuração do Dependabot para repositórios da ANPD
+# Este arquivo gerencia atualizações automáticas de dependências
+
+version: 2
+updates:
+  # Dependências NPM/Yarn para projetos Node.js
+  - package-ecosystem: 'npm'
+    directory: '/'
+    schedule:
+      interval: 'weekly'
+      day: 'monday'
+      time: '09:00'
+      timezone: 'America/Sao_Paulo'
+    open-pull-requests-limit: 10
+    reviewers:
+      - 'anpdgovbr/developers'
+    assignees:
+      - 'anpdgovbr/maintainers'
+    commit-message:
+      prefix: 'deps'
+      prefix-development: 'deps-dev'
+    labels:
+      - 'dependencies'
+      - 'automated'
+
+  # Dependências Maven para projetos Java
+  - package-ecosystem: 'maven'
+    directory: '/'
+    schedule:
+      interval: 'weekly'
+      day: 'monday'
+      time: '09:30'
+      timezone: 'America/Sao_Paulo'
+    open-pull-requests-limit: 5
+    reviewers:
+      - 'anpdgovbr/developers'
+    commit-message:
+      prefix: 'deps'
+    labels:
+      - 'dependencies'
+      - 'java'
+      - 'automated'
+
+  # Docker images
+  - package-ecosystem: 'docker'
+    directory: '/'
+    schedule:
+      interval: 'weekly'
+      day: 'tuesday'
+      time: '09:00'
+      timezone: 'America/Sao_Paulo'
+    open-pull-requests-limit: 5
+    reviewers:
+      - 'anpdgovbr/developers'
+    commit-message:
+      prefix: 'deps'
+    labels:
+      - 'dependencies'
+      - 'docker'
+      - 'automated'
+
+  # GitHub Actions
+  - package-ecosystem: 'github-actions'
+    directory: '/'
+    schedule:
+      interval: 'weekly'
+      day: 'tuesday'
+      time: '10:00'
+      timezone: 'America/Sao_Paulo'
+    open-pull-requests-limit: 3
+    reviewers:
+      - 'anpdgovbr/developers'
+    commit-message:
+      prefix: 'ci'
+    labels:
+      - 'github-actions'
+      - 'ci/cd'
+      - 'automated'
+
+  # Dependências Pip para Python
+  - package-ecosystem: 'pip'
+    directory: '/'
+    schedule:
+      interval: 'weekly'
+      day: 'wednesday'
+      time: '09:00'
+      timezone: 'America/Sao_Paulo'
+    open-pull-requests-limit: 10
+    reviewers:
+      - 'anpdgovbr/developers'
+    commit-message:
+      prefix: 'deps'
+    labels:
+      - 'dependencies'
+      - 'python'
+      - 'automated'

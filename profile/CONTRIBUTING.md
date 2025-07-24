@@ -8,7 +8,7 @@ Ficamos felizes com o seu interesse em contribuir para os projetos de código ab
 
 ## Código de Conduta
 
-Para garantir um ambiente aberto, acolhedor e respeitoso, todos os contribuidores, mantenedores e membros da comunidade devem seguir o [Código de Conduta](CODE_OF_CONDUCT.md) (a ser criado). Esperamos que todas as interações sejam construtivas e livres de assédio.
+Para garantir um ambiente aberto, acolhedor e respeitoso, todos os contribuidores, mantenedores e membros da comunidade devem seguir o [Código de Conduta](CODE_OF_CONDUCT.md). Esperamos que todas as interações sejam construtivas e livres de assédio.
 
 ---
 
