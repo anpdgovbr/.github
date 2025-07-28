@@ -18,19 +18,18 @@ Este espaço é dedicado à transparência, inovação e colaboração. Aqui voc
 ## 📌 Projetos em Destaque
 
 Explore nossos principais repositórios próprios:
-
-| Repositório                                                                                | Descrição                                                          | Status                                                                     |
+| Repositório | Descrição | Status |
 | ------------------------------------------------------------------------------------------ | ------------------------------------------------------------------ | -------------------------------------------------------------------------- |
-| 🚀 [`cadastro-controladores-api`](https://github.com/anpdgovbr/cadastro-controladores-api) | Microsserviço para gestão de Controladores e Encarregados de Dados | ![Status](https://img.shields.io/badge/Status-Em%20Desenvolvimento-yellow) |
-| 📊 [`backlog-dim`](https://github.com/anpdgovbr/backlog-dim)                               | Sistema de Gestão de Demandas Administrativas                      | ![Status](https://img.shields.io/badge/Status-Em%20Desenvolvimento-yellow) |
-| 📦 [`shared-types`](https://github.com/anpdgovbr/shared-types)                             | Biblioteca TypeScript de tipos e contratos compartilhados          | ![Status](https://img.shields.io/badge/Status-Em%20Desenvolvimento-yellow) |
-| ✨ [`shared-ui`](https://github.com/anpdgovbr/shared-ui)                                   | Biblioteca de componentes React/MUI para aplicações ANPD           | ![Status](https://img.shields.io/badge/Status-Em%20Desenvolvimento-yellow) |
-| 🏆 [`sage-frontend`](https://github.com/anpdgovbr/sage-frontend)                           | Sistema de Apoio à Gestão de Eventos (Prêmio Danilo Doneda)        | ![Status](https://img.shields.io/badge/Status-Planejamento-orange)         |
-| 🐳 [`docker-infra-pg`](https://github.com/anpdgovbr/docker-infra-pg)                       | Infraestrutura Docker para PostgreSQL e pgAdmin                    | ![Status](https://img.shields.io/badge/Status-Planejamento-orange)         |
-| 🌐 [`webservice`](https://github.com/anpdgovbr/webservice)                                 | Webservice institucional para integração de sistemas               | ![Status](https://img.shields.io/badge/Status-Planejamento-orange)         |
-| 📚 [`doc_manuais`](https://github.com/anpdgovbr/doc_manuais)                               | Manuais institucionais e documentação oficial                      | ![Status](https://img.shields.io/badge/Status-Ativo-green)                 |
-| 📋 [`script_dados_super`](https://github.com/anpdgovbr/script_dados_super)                 | Scripts para exportação e análise de dados internos                | ![Status](https://img.shields.io/badge/Status-Privado-lightgrey)           |
-| 📰 [`Ro-dou`](https://github.com/anpdgovbr/Ro-dou)                                         | Gerador de DAGs para clipping do Diário Oficial da União (Airflow) | ![Status](https://img.shields.io/badge/Status-Ativo-green)                 |
+| 🚀 [`controladores-api`](https://github.com/anpdgovbr/controladores-api) | Microsserviço para gestão de Controladores e Encarregados de Dados | ![Status](https://img.shields.io/badge/Status-Em%20Desenvolvimento-yellow) |
+| 📊 [`backlog-dim`](https://github.com/anpdgovbr/backlog-dim) | Sistema de Gestão de Demandas Administrativas | ![Status](https://img.shields.io/badge/Status-Em%20Desenvolvimento-yellow) |
+| 📦 [`shared-types`](https://github.com/anpdgovbr/shared-types) | Biblioteca TypeScript de tipos e contratos compartilhados | ![Status](https://img.shields.io/badge/Status-Em%20Desenvolvimento-yellow) |
+| ✨ [`shared-ui`](https://github.com/anpdgovbr/shared-ui) | Biblioteca de componentes React/MUI para aplicações ANPD | ![Status](https://img.shields.io/badge/Status-Em%20Desenvolvimento-yellow) |
+| 🏆 [`sage-frontend`](https://github.com/anpdgovbr/sage-frontend) | Sistema de Apoio à Gestão de Eventos (Prêmio Danilo Doneda) | ![Status](https://img.shields.io/badge/Status-Planejamento-orange) |
+| 🐳 [`docker-infra-pg`](https://github.com/anpdgovbr/docker-infra-pg) | Infraestrutura Docker para PostgreSQL e pgAdmin | ![Status](https://img.shields.io/badge/Status-Ativo-green) |
+| 🗄️ [`docker-infra-mssql`](https://github.com/anpdgovbr/docker-infra-mssql) | Ambiente Docker para um MS SQL Server 22 puro | ![Status](https://img.shields.io/badge/Status-Ativo-green) |
+| 📚 [`doc_manuais`](https://github.com/anpdgovbr/doc_manuais) | Manuais institucionais e documentação oficial | ![Status](https://img.shields.io/badge/Status-Ativo-green) |
+| 📋 [`script_dados_super`](https://github.com/anpdgovbr/script_dados_super) | Scripts para exportação e análise de dados internos | ![Status](https://img.shields.io/badge/Status-Privado-lightgrey) |
+| 📰 [`Ro-dou`](https://github.com/anpdgovbr/Ro-dou) | Gerador de DAGs para clipping do Diário Oficial da União (Airflow) | ![Status](https://img.shields.io/badge/Status-Ativo-green) |
 
 Outros repositórios próprios em planejamento ou privados:
 
