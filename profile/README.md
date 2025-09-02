@@ -1,4 +1,4 @@
-# 🏛️ Autoridade Nacional de Proteção de Dados (ANPD) 🇧🇷
+# 🏛️ Autoridade Nacio||| 🛡| 📰 [`Ro-dou`](https://github.com/anpdgovbr/Ro-dou) | Gerador de DAGs no Apache Airflow para facilitar clipping de DOU | ![Status](https://img.shields.io/badge/Status-Ativo-green) | [`rbac`](https://github.com/anpdgovbr/rbac) | Monorepo de pacotes RBAC de sistema de permissões e autorizações | ![Status](https://img.shields.io/badge/Status-Em%20Desenvolvimento-yellow) |🚀 [`controladores-api`](https://github.com/anpdgovbr/controladores-api) | Microsserviço responsável pela gestão de Controladores e Encarregados | ![Status](https://img.shields.io/badge/Status-Em%20Desenvolvimento-yellow) |📊 [`backlog-dim`](https://github.com/anpdgovbr/backlog-dim) | Aplicação CRUD para gestão de demandas administrativas e backlog | ![Status](https://img.shields.io/badge/Status-Em%20Desenvolvimento-yellow) |al de Proteção de Dados (ANPD) 🇧🇷
 
 **Bem-vindo ao GitHub oficial da Autoridade Nacional de Proteção de Dados (ANPD).**
 
@@ -20,23 +20,27 @@ Este espaço é dedicado à transparência, inovação e colaboração. Aqui voc
 Explore nossos principais repositórios próprios:
 | Repositório | Descrição | Status |
 | ------------------------------------------------------------------------------------------ | ------------------------------------------------------------------ | -------------------------------------------------------------------------- |
-| 🚀 [`controladores-api`](https://github.com/anpdgovbr/controladores-api) | Microsserviço para gestão de Controladores e Encarregados de Dados | ![Status](https://img.shields.io/badge/Status-Em%20Desenvolvimento-yellow) |
-| 📊 [`backlog-dim`](https://github.com/anpdgovbr/backlog-dim) | Sistema de Gestão de Demandas Administrativas | ![Status](https://img.shields.io/badge/Status-Em%20Desenvolvimento-yellow) |
-| 📦 [`shared-types`](https://github.com/anpdgovbr/shared-types) | Biblioteca TypeScript de tipos e contratos compartilhados | ![Status](https://img.shields.io/badge/Status-Em%20Desenvolvimento-yellow) |
-| ✨ [`shared-ui`](https://github.com/anpdgovbr/shared-ui) | Biblioteca de componentes React/MUI para aplicações ANPD | ![Status](https://img.shields.io/badge/Status-Em%20Desenvolvimento-yellow) |
-| 🏆 [`sage-frontend`](https://github.com/anpdgovbr/sage-frontend) | Sistema de Apoio à Gestão de Eventos (Prêmio Danilo Doneda) | ![Status](https://img.shields.io/badge/Status-Planejamento-orange) |
-| 🐳 [`docker-infra-pg`](https://github.com/anpdgovbr/docker-infra-pg) | Infraestrutura Docker para PostgreSQL e pgAdmin | ![Status](https://img.shields.io/badge/Status-Ativo-green) |
-| 🗄️ [`docker-infra-mssql`](https://github.com/anpdgovbr/docker-infra-mssql) | Ambiente Docker para um MS SQL Server 22 puro | ![Status](https://img.shields.io/badge/Status-Planejamento-orange) |
-| 📚 [`doc_manuais`](https://github.com/anpdgovbr/doc_manuais) | Manuais institucionais e documentação oficial | ![Status](https://img.shields.io/badge/Status-Ativo-green) |
-| 📋 [`script_dados_super`](https://github.com/anpdgovbr/script_dados_super) | Scripts para exportação e análise de dados internos | ![Status](https://img.shields.io/badge/Status-Privado-lightgrey) |
-| 📰 [`Ro-dou`](https://github.com/anpdgovbr/Ro-dou) | Gerador de DAGs para clipping do Diário Oficial da União (Airflow) | ![Status](https://img.shields.io/badge/Status-Ativo-green) |
+| 📊 [`backlog-dim`](https://github.com/anpdgovbr/backlog-dim) | Aplicação CRUD para gestão de demandas administrativas e backlog | ![Status](https://img.shields.io/badge/Status-Em%20Desenvolvimento-yellow) |
+| 🚀 [`controladores-api`](https://github.com/anpdgovbr/controladores-api) | Microsserviço responsável pela gestão de Controladores e Encarregados | ![Status](https://img.shields.io/badge/Status-Em%20Desenvolvimento-yellow) |
+| 🔐 [`rbac`](https://github.com/anpdgovbr/rbac) | Monorepo de pacotes RBAC de sistema de permissões e autorizações | ![Status](https://img.shields.io/badge/Status-Em%20Desenvolvimento-yellow) |
+| 📦 [`shared-types`](https://github.com/anpdgovbr/shared-types) | Biblioteca TypeScript com tipos e contratos compartilhados | ![Status](https://img.shields.io/badge/Status-Em%20Desenvolvimento-yellow) |
+| ✨ [`shared-ui`](https://github.com/anpdgovbr/shared-ui) | Biblioteca de componentes React, desenvolvida com MUI e Storybook | ![Status](https://img.shields.io/badge/Status-Em%20Desenvolvimento-yellow) |
+| 🐳 [`docker-infra-pg`](https://github.com/anpdgovbr/docker-infra-pg) | Ambiente Docker para um PostgreSQL 15 puro e pgAdmin | ![Status](https://img.shields.io/badge/Status-Ativo-green) |
+| 📰 [`Ro-dou`](https://github.com/anpdgovbr/Ro-dou) | Gerador de DAGs no Apache Airflow para facilitar clipping de DOU | ![Status](https://img.shields.io/badge/Status-Ativo-green) |
+| 🗄️ [`docker-infra-mssql`](https://github.com/anpdgovbr/docker-infra-mssql) | Ambiente Docker para um MS SQL Server 22 puro | ![Status](https://img.shields.io/badge/Status-Ativo-green) |
+| 📚 [`doc_manuais`](https://github.com/anpdgovbr/doc_manuais) | Manuais da ANPD - documentação oficial e institucional | ![Status](https://img.shields.io/badge/Status-Ativo-green) |
 
 Outros repositórios próprios em planejamento ou privados:
 
-- `gh-project-template` (template ágil para projetos GitHub)
+- `controladores-api-quarkus` (versão alternativa da API de controladores em Quarkus)
+- `controladores-api-springboot` (versão da API de controladores implementada em Spring Boot)
+- `gh-project-template` (estrutura base de projetos usando GitHub)
+
+Forks de projetos relevantes:
+
 - `sei` (ramificação do projeto SEI)
-- `mod-wssei` (módulo de integração SEI)
-- `mod-sei-pen` (módulo de integração Tramita.GOV.BR)
+- `mod-sei-pen` (módulo de integração ao Tramita.GOV.BR)
+- `mod-wssei` (módulo de webservice SEI)
 
 > **Nota sobre visibilidade:**
 >
@@ -158,17 +162,17 @@ Para dúvidas, sugestões ou comunicação técnica com nossa equipe de desenvol
 
 ### 🎯 **Estatísticas da Organização**
 
-- 📦 **10+ repositórios** ativos de código aberto
+- 📦 **19+ repositórios** (10+ públicos, 9+ privados/forks)
 - 🛠️ **4 linguagens principais** (TypeScript, JavaScript, Java, Python)
-- 🏗️ **3 stacks tecnológicas** (React/Next.js, NestJS, Spring Boot)
+- 🏗️ **4 stacks tecnológicas** (React/Next.js, NestJS, Spring Boot, Quarkus)
 - 🔄 **Templates padronizados** para toda a organização
 - 🔐 **Políticas unificadas** de segurança e contribuição
 
 ### 🌟 **Tecnologias em Destaque**
 
 - **Frontend:** React, Next.js, Material-UI (MUI), Storybook
-- **Backend:** Node.js, NestJS, Java Spring Boot
-- **Banco de Dados:** PostgreSQL, Prisma ORM
+- **Backend:** Node.js, NestJS, Java Spring Boot, Quarkus
+- **Banco de Dados:** PostgreSQL, MS SQL Server, Prisma ORM
 - **DevOps:** Docker, GitHub Actions, Dependabot
 - **Qualidade:** ESLint, Prettier, TypeScript, Testes automatizados
 
@@ -186,7 +190,7 @@ A **Autoridade Nacional de Proteção de Dados** é a autarquia federal respons�
 
 ### 🎯 **Nossa Missão Digital**
 
-- � **Código Aberto** como ferramenta de transparência pública
+- 💻 **Código Aberto** como ferramenta de transparência pública
 - 🛡️ **Proteção de Dados** através de tecnologia segura e auditável
 - 🤝 **Colaboração** com a comunidade de desenvolvedores
 - 🌐 **Interoperabilidade** com o ecossistema gov.br
