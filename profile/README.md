@@ -27,7 +27,8 @@ Explore nossos principais repositórios próprios:
 | ✨ [`shared-ui`](https://github.com/anpdgovbr/shared-ui) | Biblioteca de componentes React, desenvolvida com MUI e Storybook | ![Status](https://img.shields.io/badge/Status-Em%20Desenvolvimento-yellow) |
 | 🐳 [`docker-infra-pg`](https://github.com/anpdgovbr/docker-infra-pg) | Ambiente Docker para um PostgreSQL 15 puro e pgAdmin | ![Status](https://img.shields.io/badge/Status-Ativo-green) |
 | 📰 [`Ro-dou`](https://github.com/anpdgovbr/Ro-dou) | Gerador de DAGs no Apache Airflow para facilitar clipping de DOU | ![Status](https://img.shields.io/badge/Status-Ativo-green) |
-| 🗄️ [`docker-infra-mssql`](https://github.com/anpdgovbr/docker-infra-mssql) | Ambiente Docker para um MS SQL Server 22 puro | ![Status](https://img.shields.io/badge/Status-Ativo-green) |
+| � [`gerador-assinatura`](https://github.com/anpdgovbr/gerador-assinatura) | Web part SPFx para gerar assinaturas de email institucionais padronizadas | ![Status](https://img.shields.io/badge/Status-Ativo-green) |
+| �🗄️ [`docker-infra-mssql`](https://github.com/anpdgovbr/docker-infra-mssql) | Ambiente Docker para um MS SQL Server 22 puro | ![Status](https://img.shields.io/badge/Status-Ativo-green) |
 | 📚 [`doc_manuais`](https://github.com/anpdgovbr/doc_manuais) | Manuais da ANPD - documentação oficial e institucional | ![Status](https://img.shields.io/badge/Status-Ativo-green) |
 
 Outros repositórios próprios em planejamento ou privados:
@@ -162,7 +163,7 @@ Para dúvidas, sugestões ou comunicação técnica com nossa equipe de desenvol
 
 ### 🎯 **Estatísticas da Organização**
 
-- 📦 **19+ repositórios** (10+ públicos, 9+ privados/forks)
+- 📦 **20+ repositórios** (11+ públicos, 9+ privados/forks)
 - 🛠️ **4 linguagens principais** (TypeScript, JavaScript, Java, Python)
 - 🏗️ **4 stacks tecnológicas** (React/Next.js, NestJS, Spring Boot, Quarkus)
 - 🔄 **Templates padronizados** para toda a organização
