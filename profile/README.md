@@ -1,6 +1,6 @@
-# 🏛️ Autoridade Nacional de Proteção de Dados (ANPD) 🇧🇷
+# 🏛️ Agência Nacional de Proteção de Dados (ANPD) 🇧🇷
 
-**Bem-vindo ao GitHub oficial da Autoridade Nacional de Proteção de Dados (ANPD).**
+**Bem-vindo ao GitHub oficial da Agência Nacional de Proteção de Dados (ANPD).**
 
 Este espaço é dedicado à transparência, inovação e colaboração. Aqui você encontrará o código-fonte de nossas soluções, documentações técnicas e projetos de P&D que impulsionam a proteção de dados no Brasil.
 
@@ -187,7 +187,7 @@ Agradecemos a todos os desenvolvedores, analistas e colaboradores que contribuem
 
 ## 🏛️ Sobre a ANPD
 
-A **Autoridade Nacional de Proteção de Dados** é a autarquia federal responsável por zelar pela proteção de dados pessoais no Brasil, garantindo a aplicação da **Lei Geral de Proteção de Dados Pessoais (LGPD)**.
+A **Agência Nacional de Proteção de Dados** é a autarquia federal responsável por zelar pela proteção de dados pessoais no Brasil, garantindo a aplicação da **Lei Geral de Proteção de Dados Pessoais (LGPD)**.
 
 ### 🎯 **Nossa Missão Digital**
 
@@ -199,7 +199,7 @@ A **Autoridade Nacional de Proteção de Dados** é a autarquia federal respons�
 
 ### 🏛️ Governança Digital
 
-A ANPD instituiu o **Comitê de Governança Digital (CGD/ANPD)**, responsável por deliberar e acompanhar ações de governo digital e o uso de tecnologia da informação e comunicação (TIC) na Autoridade.
+A ANPD instituiu o **Comitê de Governança Digital (CGD/ANPD)**, responsável por deliberar e acompanhar ações de governo digital e o uso de tecnologia da informação e comunicação (TIC) na Agência.
 
 **Principais competências do Comitê:**
 
@@ -239,7 +239,7 @@ A ANPD instituiu o **Comitê de Governança Digital (CGD/ANPD)**, responsável p
 
 > 💙 _"Por uma cultura de proteção de dados pessoais no Brasil."_
 >
-> **🇧🇷 Governo Federal do Brasil** | **🏛️ Autoridade Nacional de Proteção de Dados**
+> **🇧🇷 Governo Federal do Brasil** | **🏛️ Agência Nacional de Proteção de Dados**
 
 ---
 
