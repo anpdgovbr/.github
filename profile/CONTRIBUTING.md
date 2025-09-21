@@ -1,6 +1,6 @@
 # Como Contribuir para os Projetos da ANPD
 
-Ficamos felizes com o seu interesse em contribuir para os projetos de código aberto da Autoridade Nacional de Proteção de Dados (ANPD). A sua colaboração é fundamental para aprimorar as ferramentas que fortalecem a cultura de proteção de dados no Brasil.
+Ficamos felizes com o seu interesse em contribuir para os projetos de código aberto da Agência Nacional de Proteção de Dados (ANPD). A sua colaboração é fundamental para aprimorar as ferramentas que fortalecem a cultura de proteção de dados no Brasil.
 
 > ⚠️ **Aviso Importante:** Este é um guia de contribuição inicial. As diretrizes aqui descritas estão em constante aprimoramento e podem ser atualizadas.
 

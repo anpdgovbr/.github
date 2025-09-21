@@ -1,6 +1,6 @@
 # 🏛️ Configurações da Organização ANPD
 
-Este é o repositório especial `.github` da **Autoridade Nacional de Proteção de Dados (ANPD)** que contém as configurações padrão da organização, templates e políticas aplicáveis a todos os nossos repositórios.
+Este é o repositório especial `.github` da **Agência Nacional de Proteção de Dados (ANPD)** que contém as configurações padrão da organização, templates e políticas aplicáveis a todos os nossos repositórios.
 
 ---
 
@@ -174,5 +174,5 @@ Este repositório segue as mesmas políticas de licenciamento dos demais projeto
 
 ---
 
-**Autoridade Nacional de Proteção de Dados – ANPD**  
+**Agência Nacional de Proteção de Dados – ANPD**  
 _"Por uma cultura de proteção de dados pessoais no Brasil."_

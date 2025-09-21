@@ -2,7 +2,7 @@
 
 ## 🤝 Nosso Compromisso
 
-Como membros, contribuidores e líderes da comunidade de código aberto da **Autoridade Nacional de Proteção de Dados (ANPD)**, nos comprometemos a tornar a participação em nossa comunidade uma experiência livre de assédio para todos, independentemente de idade, tamanho corporal, deficiência visível ou invisível, etnia, características sexuais, identidade e expressão de gênero, nível de experiência, educação, status socioeconômico, nacionalidade, aparência pessoal, raça, religião ou identidade e orientação sexual.
+Como membros, contribuidores e líderes da comunidade de código aberto da **Agência Nacional de Proteção de Dados (ANPD)**, nos comprometemos a tornar a participação em nossa comunidade uma experiência livre de assédio para todos, independentemente de idade, tamanho corporal, deficiência visível ou invisível, etnia, características sexuais, identidade e expressão de gênero, nível de experiência, educação, status socioeconômico, nacionalidade, aparência pessoal, raça, religião ou identidade e orientação sexual.
 
 Nos comprometemos a agir e interagir de maneiras que contribuam para uma comunidade aberta, acolhedora, diversa, inclusiva e saudável.
 
@@ -96,4 +96,4 @@ Para respostas a perguntas comuns sobre este código de conduta, consulte o FAQ 
 
 **Divisão de Desenvolvimento e Sustentação de Sistemas (DDSS)**  
 **Coordenação-Geral de Tecnologia da Informação (CGTI)**  
-**Autoridade Nacional de Proteção de Dados – ANPD**
+**Agência Nacional de Proteção de Dados – ANPD**
