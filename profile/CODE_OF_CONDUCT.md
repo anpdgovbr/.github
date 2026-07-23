@@ -94,6 +94,7 @@ Para respostas a perguntas comuns sobre este código de conduta, consulte o FAQ 
 
 ---
 
-**Divisão de Desenvolvimento e Sustentação de Sistemas (DDSS)**  
+**Coordenação de Desenvolvimento de Sistemas (COSIS)**  
 **Coordenação-Geral de Tecnologia da Informação (CGTI)**  
+**SGI**  
 **Agência Nacional de Proteção de Dados – ANPD**

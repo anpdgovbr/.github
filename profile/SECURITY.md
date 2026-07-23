@@ -75,7 +75,7 @@ Após a análise e resolução da vulnerabilidade, publicaremos as correções v
 - 📝 **Histórico de commits** e changelog do projeto
 - 🐛 **GitHub Security Advisories** para vulnerabilidades críticas
 - 📋 **Issues públicas** com detalhes não sensíveis, se necessário
-- 🏢 **Comunicação interna** via DDSS/CGTI/ANPD, se aplicável
+- 🏢 **Comunicação interna** via COSIS/CGTI/SGI, se aplicável
 
 ### 🕐 Timeline de Divulgação
 
@@ -121,6 +121,7 @@ Agradecemos a qualquer colaborador que reporte vulnerabilidades de forma respons
 
 ---
 
-**Divisão de Desenvolvimento e Sustentação de Sistemas (DDSS)**  
+**Coordenação de Desenvolvimento de Sistemas (COSIS)**  
 **Coordenação-Geral de Tecnologia da Informação (CGTI)**  
+**SGI**  
 **Agência Nacional de Proteção de Dados – ANPD**
