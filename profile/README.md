@@ -25,6 +25,7 @@ Explore nossos principais repositórios próprios:
 | 🔐 [`rbac`](https://github.com/anpdgovbr/rbac) | Monorepo de pacotes RBAC de sistema de permissões e autorizações | ![Status](https://img.shields.io/badge/Status-Em%20Desenvolvimento-yellow) |
 | 📦 [`shared-types`](https://github.com/anpdgovbr/shared-types) | Biblioteca TypeScript com tipos e contratos compartilhados | ![Status](https://img.shields.io/badge/Status-Em%20Desenvolvimento-yellow) |
 | ✨ [`shared-ui`](https://github.com/anpdgovbr/shared-ui) | Biblioteca de componentes React, desenvolvida com MUI e Storybook | ![Status](https://img.shields.io/badge/Status-Em%20Desenvolvimento-yellow) |
+| 🔗 [`sei-integrations`](https://github.com/anpdgovbr/sei-integrations) | Monorepo de bibliotecas TypeScript para integração SOAP com o SEI e o SIP | ![Status](https://img.shields.io/badge/Status-Ativo-green) |
 | 🐳 [`docker-infra-pg`](https://github.com/anpdgovbr/docker-infra-pg) | Ambiente Docker para um PostgreSQL 15 puro e pgAdmin | ![Status](https://img.shields.io/badge/Status-Ativo-green) |
 | 📰 [`Ro-dou`](https://github.com/anpdgovbr/Ro-dou) | Gerador de DAGs no Apache Airflow para facilitar clipping de DOU | ![Status](https://img.shields.io/badge/Status-Ativo-green) |
 | � [`gerador-assinatura`](https://github.com/anpdgovbr/gerador-assinatura) | Web part SPFx para gerar assinaturas de email institucionais padronizadas | ![Status](https://img.shields.io/badge/Status-Ativo-green) |
