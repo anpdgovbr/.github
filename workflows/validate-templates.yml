@@ -88,7 +88,7 @@ jobs:
             grep_count=$((grep_count + 1))
           fi
 
-          if grep -r "desenvolvimento@anpd.gov.br\|ddss@anpd.gov.br" .github/; then
+          if grep -r "desenvolvimento@anpd.gov.br\|cosis.sgi@anpd.gov.br" .github/; then
             echo "✅ Contatos da ANPD encontrados"
             grep_count=$((grep_count + 1))
           fi
@@ -181,7 +181,7 @@ jobs:
             echo "✅ SECURITY.md encontrado"
             
             # Verificar se contém informações essenciais
-            if grep -q "ddss@anpd.gov.br" .github/profile/SECURITY.md; then
+            if grep -q "cosis.sgi@anpd.gov.br" .github/profile/SECURITY.md; then
               echo "✅ Contato de segurança encontrado"
             else
               echo "❌ Contato de segurança não encontrado"

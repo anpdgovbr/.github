@@ -163,7 +163,7 @@ Para sugerir melhorias neste repositório:
 ## 📞 Contatos
 
 - 📧 **Desenvolvimento**: desenvolvimento@anpd.gov.br
-- 🔐 **Segurança**: ddss@anpd.gov.br
+- 🔐 **Segurança**: cosis.sgi@anpd.gov.br
 - 🌐 **Site oficial**: [www.gov.br/anpd](https://www.gov.br/anpd)
 
 ---

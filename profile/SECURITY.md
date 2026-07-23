@@ -12,7 +12,7 @@ Caso você identifique uma possível vulnerabilidade de segurança em qualquer r
 
 Em vez disso, envie um e-mail diretamente para nossa equipe técnica:
 
-📧 **ddss@anpd.gov.br**
+📧 **cosis.sgi@anpd.gov.br**
 
 ### 📋 Informações a Incluir
 
@@ -115,7 +115,7 @@ Agradecemos a qualquer colaborador que reporte vulnerabilidades de forma respons
 
 ## 📞 Contatos
 
-- 📧 **Segurança:** ddss@anpd.gov.br
+- 📧 **Segurança:** cosis.sgi@anpd.gov.br
 - 📧 **Desenvolvimento:** desenvolvimento@anpd.gov.br
 - 🌐 **Site oficial:** [www.gov.br/anpd](https://www.gov.br/anpd)
 
