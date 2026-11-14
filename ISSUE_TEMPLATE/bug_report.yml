@@ -13,14 +13,14 @@ body:
         **Antes de continuar:**
         - 🔍 Verifique se já existe uma issue similar
         - 📚 Consulte a documentação do projeto
-        - 🔒 Para vulnerabilidades de segurança, use nosso [processo de divulgação responsável](../profile/SECURITY.md)
+        - 🔒 Para vulnerabilidades de segurança, use nosso [processo de divulgação responsável](https://github.com/anpdgovbr/.github/blob/main/SECURITY.md)
 
   - type: input
     id: repository
     attributes:
       label: 📦 Repositório Afetado
       description: Em qual repositório da ANPD o problema ocorre?
-      placeholder: 'Ex: shared-ui, cadastro-controladores-api, backlog-dim...'
+      placeholder: 'Ex: sei-integrations, doc_manuais...'
     validations:
       required: true
 
@@ -99,7 +99,7 @@ body:
       label: ✅ Confirmações
       description: Por favor, confirme que
       options:
-        - label: Li e segui o [Código de Conduta](../profile/CODE_OF_CONDUCT.md)
+        - label: Li e segui o [Código de Conduta](https://github.com/anpdgovbr/.github/blob/main/CODE_OF_CONDUCT.md)
           required: true
         - label: Verifiquei que não existe uma issue similar já aberta
           required: true

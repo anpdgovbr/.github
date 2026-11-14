@@ -1,69 +1,52 @@
 # Agência Nacional de Proteção de Dados (ANPD)
 
-Bem-vindo ao GitHub oficial da **Agência Nacional de Proteção de Dados (ANPD)**, autarquia federal responsável pela aplicação da Lei Geral de Proteção de Dados Pessoais (LGPD) no Brasil.
+Perfil oficial no GitHub da **Agência Nacional de Proteção de Dados (ANPD)**, autarquia de natureza especial responsável por zelar, implementar e fiscalizar o cumprimento da Lei Geral de Proteção de Dados Pessoais (LGPD) no Brasil.
 
-Este espaço reúne o código-fonte de soluções, documentação técnica e projetos de desenvolvimento da Agência, com foco em transparência, interoperabilidade e reuso pela administração pública.
-
----
-
-## Princípios
-
-- **Código aberto** sempre que legalmente possível, para promover reuso e colaboração.
-- **Transparência** na documentação e nos processos de desenvolvimento.
-- **Interoperabilidade** com o ecossistema gov.br.
-- **Segurança** e proteção de dados por padrão em todos os projetos.
+Esta organização reúne os projetos da Agência que são **publicados para uso externo** ou que **acompanham projetos públicos do governo federal**. O desenvolvimento dos sistemas institucionais da ANPD não é feito aqui.
 
 ---
 
-## Projetos em destaque
+## Projetos
 
-| Repositório                                                              | Descrição                                                                  | Status                                                                     |
-| ------------------------------------------------------------------------- | ----------------------------------------------------------------------------- | -------------------------------------------------------------------------- |
-| [`sei-integrations`](https://github.com/anpdgovbr/sei-integrations)     | Monorepo de bibliotecas TypeScript para integração SOAP com o SEI e o SIP  | ![Status](https://img.shields.io/badge/Status-Ativo-green)                 |
-| [`rbac`](https://github.com/anpdgovbr/rbac)                             | Monorepo de pacotes de controle de acesso baseado em papéis (RBAC)        | ![Status](https://img.shields.io/badge/Status-Em%20Desenvolvimento-yellow) |
-| [`Ro-dou`](https://github.com/anpdgovbr/Ro-dou)                         | Gerador de DAGs no Apache Airflow para clipping do Diário Oficial da União | ![Status](https://img.shields.io/badge/Status-Ativo-green)                 |
-| [`docker-infra-pg`](https://github.com/anpdgovbr/docker-infra-pg)       | Ambiente Docker para PostgreSQL 15 e pgAdmin                               | ![Status](https://img.shields.io/badge/Status-Ativo-green)                 |
-| [`docker-infra-mssql`](https://github.com/anpdgovbr/docker-infra-mssql) | Ambiente Docker para MS SQL Server 22                                      | ![Status](https://img.shields.io/badge/Status-Ativo-green)                 |
-| [`mod-sei-pen`](https://github.com/anpdgovbr/mod-sei-pen)               | Módulo de integração do SEI ao Tramita.GOV.BR                             | ![Status](https://img.shields.io/badge/Status-Ativo-green)                 |
-| [`doc_manuais`](https://github.com/anpdgovbr/doc_manuais)               | Manuais oficiais e institucionais da ANPD                                  | ![Status](https://img.shields.io/badge/Status-Ativo-green)                 |
+### Bibliotecas e documentação
 
-> Repositórios privados correspondem a projetos internos, em desenvolvimento ou que envolvem dados sensíveis. Tudo o que for legalmente possível é aberto ao público.
+| Repositório                                                          | Descrição                                                                                                                                  |
+| -------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------ |
+| [`sei-integrations`](https://github.com/anpdgovbr/sei-integrations) | Bibliotecas TypeScript para integração com os webservices do SEI e do SIP, publicadas no npm ([documentação](https://anpdgovbr.github.io/sei-integrations/)) |
+| [`doc_manuais`](https://github.com/anpdgovbr/doc_manuais)           | Manuais para usuários externos do SEI da ANPD                                                                                              |
+
+### Forks de projetos do governo federal
+
+Cópias de projetos mantidos por outros órgãos, usadas pela ANPD. Sugestões e correções devem ser enviadas ao repositório original.
+
+| Repositório                                                | Projeto original                                                     |
+| ---------------------------------------------------------- | -------------------------------------------------------------------- |
+| [`Ro-dou`](https://github.com/anpdgovbr/Ro-dou)           | [`gestaogovbr/Ro-dou`](https://github.com/gestaogovbr/Ro-dou)       |
+| [`mod-sei-pen`](https://github.com/anpdgovbr/mod-sei-pen) | [`pengovbr/mod-sei-pen`](https://github.com/pengovbr/mod-sei-pen)   |
+| [`mod-wssei`](https://github.com/anpdgovbr/mod-wssei)     | [`pengovbr/mod-wssei`](https://github.com/pengovbr/mod-wssei)       |
 
 ---
 
 ## Segurança e contribuição
 
-- Para reportar uma vulnerabilidade, siga a [Política de Segurança](SECURITY.md) — **não abra uma issue pública**.
-- Para contribuir com algum projeto, veja o [Guia de Contribuição](CONTRIBUTING.md) e o [Código de Conduta](CODE_OF_CONDUCT.md).
-- Issues e Pull Requests seguem os [templates padrão](https://github.com/anpdgovbr/.github/tree/main/.github) da organização.
+- Para reportar uma vulnerabilidade, siga a [Política de Segurança](https://github.com/anpdgovbr/.github/blob/main/SECURITY.md). **Não abra uma issue pública.**
+- Para contribuir, veja o [Guia de Contribuição](https://github.com/anpdgovbr/.github/blob/main/CONTRIBUTING.md) e o [Código de Conduta](https://github.com/anpdgovbr/.github/blob/main/CODE_OF_CONDUCT.md).
 
 ---
 
 ## Governança digital
 
-A ANPD mantém o **Comitê de Governança Digital (CGD/ANPD)**, responsável por alinhar as iniciativas de tecnologia da informação à estratégia institucional da Agência, incluindo o Plano Diretor de TIC (PDTIC) e o Plano de Transformação Digital.
+As iniciativas de tecnologia da informação da ANPD são planejadas e acompanhadas pelo **Comitê de Governança Digital (CGD/ANPD)** e publicadas nos instrumentos oficiais de planejamento:
 
-- [Resolução CD/ANPD nº 3/2023](https://www.in.gov.br/web/dou/-/resolucao-cd/anpd-n-3-de-25-de-janeiro-de-2023-460124477)
-- [PDTIC/ANPD 2025-2028](https://www.gov.br/anpd/pt-br/acesso-a-informacao/acoes-e-programas/governanca/comite-governanca-digital/pdtic/pdtic-2025-2028-vigente.pdf)
-- [Atas do Comitê de Governança Digital](https://www.gov.br/anpd/pt-br/acesso-a-informacao/acoes-e-programas/governanca/comite-governanca-digital)
+- [Plano Diretor de TIC (PDTIC) 2025-2028](https://www.gov.br/anpd/pt-br/acesso-a-informacao/acoes-e-programas/governanca/comite-governanca-digital/pdtic/pdtic-2025-2028-vigente.pdf)
+- [Plano de Transformação Digital (PTD) 2025-2027](https://www.gov.br/anpd/pt-br/acesso-a-informacao/acoes-e-programas/governanca/comite-governanca-digital/anpd_ptd_2025_2027.pdf)
+- [Comitê de Governança Digital](https://www.gov.br/anpd/pt-br/acesso-a-informacao/acoes-e-programas/governanca/comite-governanca-digital): atas e documentos
 
 ---
 
 ## Contato
 
-- **Desenvolvimento:** desenvolvimento@anpd.gov.br
+- **Projetos deste GitHub:** desenvolvimento@anpd.gov.br
 - **Segurança (vulnerabilidades):** cosis.sgi@anpd.gov.br
+- **Demais assuntos da ANPD:** [Fale Conosco](https://www.gov.br/anpd/pt-br/canais_atendimento/fale-conosco)
 - **Site oficial:** [www.gov.br/anpd](https://www.gov.br/anpd)
-- **Canais de atendimento:** [Fale Conosco](https://www.gov.br/anpd/pt-br/canais_atendimento/fale-conosco)
-
----
-
-<div align="center">
-
-[![GitHub Organization](https://img.shields.io/badge/GitHub-anpdgovbr-blue?logo=github)](https://github.com/anpdgovbr)
-[![Website](https://img.shields.io/badge/Website-gov.br%2Fanpd-green?logo=firefox)](https://www.gov.br/anpd)
-[![LGPD](https://img.shields.io/badge/LGPD-Compliance-gold)](https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/lei/l13709.htm)
-
-_"Por uma cultura de proteção de dados pessoais no Brasil."_
-
-</div>

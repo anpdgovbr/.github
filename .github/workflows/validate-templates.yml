@@ -1,0 +1,75 @@
+name: 🔍 Validar Templates da Organização
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    name: 📋 Validar templates e políticas
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: 📥 Checkout código
+        uses: actions/checkout@v4
+
+      - name: 🔍 Validar sintaxe YAML
+        run: |
+          python3 - <<'EOF'
+          import glob, sys, yaml
+
+          files = glob.glob('ISSUE_TEMPLATE/*.yml') + glob.glob('.github/**/*.yml', recursive=True)
+          errors = 0
+          for file in sorted(files):
+              try:
+                  with open(file, encoding='utf-8') as f:
+                      yaml.safe_load(f)
+                  print(f'✅ {file}')
+              except yaml.YAMLError as e:
+                  print(f'❌ {file}: {e}')
+                  errors += 1
+          sys.exit(1 if errors else 0)
+          EOF
+
+      - name: 📄 Verificar arquivos obrigatórios
+        run: |
+          errors=0
+          for file in profile/README.md SECURITY.md CONTRIBUTING.md CODE_OF_CONDUCT.md pull_request_template.md; do
+            if [ -f "$file" ]; then
+              echo "✅ $file"
+            else
+              echo "❌ $file não encontrado"
+              errors=$((errors + 1))
+            fi
+          done
+
+          if ! grep -q "cosis.sgi@anpd.gov.br" SECURITY.md; then
+            echo "❌ Contato de segurança não encontrado em SECURITY.md"
+            errors=$((errors + 1))
+          fi
+
+          [ $errors -eq 0 ] || exit 1
+
+      - name: 🔗 Verificar links para arquivos deste repositório
+        run: |
+          # Links absolutos (https://github.com/anpdgovbr/.github/blob/main/...) precisam apontar para arquivos existentes
+          errors=0
+          links=$(grep -rhoE 'https://github\.com/anpdgovbr/\.github/blob/main/[^)#" ]+' \
+            profile/ ISSUE_TEMPLATE/ *.md || true)
+
+          for link in $(echo "$links" | sort -u); do
+            target="${link#https://github.com/anpdgovbr/.github/blob/main/}"
+            if [ -f "$target" ]; then
+              echo "✅ $target"
+            else
+              echo "❌ $link (arquivo não encontrado)"
+              errors=$((errors + 1))
+            fi
+          done
+
+          [ $errors -eq 0 ] || exit 1

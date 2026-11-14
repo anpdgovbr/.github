@@ -20,7 +20,7 @@ body:
     attributes:
       label: 📦 Repositório Relacionado
       description: Sobre qual repositório da ANPD você tem uma pergunta?
-      placeholder: 'Ex: shared-ui, cadastro-controladores-api, geral...'
+      placeholder: 'Ex: sei-integrations, doc_manuais, geral...'
     validations:
       required: false
 
@@ -89,7 +89,7 @@ body:
       label: ✅ Confirmações
       description: Por favor, confirme que
       options:
-        - label: Li e segui o [Código de Conduta](../profile/CODE_OF_CONDUCT.md)
+        - label: Li e segui o [Código de Conduta](https://github.com/anpdgovbr/.github/blob/main/CODE_OF_CONDUCT.md)
           required: true
         - label: Busquei na documentação e issues existentes antes de perguntar
           required: true

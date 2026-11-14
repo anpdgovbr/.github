@@ -129,7 +129,7 @@ Relacionado: #
 - [ ] Minha branch está atualizada com a branch de destino
 - [ ] Resolvi todos os conflitos de merge
 - [ ] Linkei issues relacionadas
-- [ ] Segui o [Código de Conduta](profile/CODE_OF_CONDUCT.md)
+- [ ] Segui o [Código de Conduta](https://github.com/anpdgovbr/.github/blob/main/CODE_OF_CONDUCT.md)
 
 ### 🔍 Revisão
 
@@ -161,7 +161,3 @@ Relacionado: #
 ---
 
 **Obrigado por contribuir com os projetos da ANPD! 🏛️**
-
-<!-- Para uso da equipe ANPD -->
-
-/cc @anpdgovbr/developers
